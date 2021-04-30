@@ -18,6 +18,7 @@ Right now the files that we would interact with are:
  - ***admin.py***<br>Houses quality control methods for improved program functionality.
  - ***constants.py***<br>Many of the manual calculations use universally understood constants. This file is accessed within other files in this project and should be accessed by the user as well for consistent constants and psuedo-constants (i.e. variables that many assume to be constant but have slight variability).
  - ***main.py***<br>This file is a carryover from when this program was create using Java.
+ - ***humidity.py***<br>Incorporates humidity calculations utilizing the CoolProp library.
 
 ## Licensing and Acknowledgements
 [The US Standard Atmosphere 1976](https://www.pdas.com/atmos.html) and [CoolProp](https://github.com/CoolProp/CoolProp) are extensively leveraged and must be given the proper kudos.
